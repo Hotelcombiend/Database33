@@ -1,7 +1,7 @@
 <?php
 $id=$_GET['ID'];
 $conn = mysqli_init();
-mysqli_real_connect($conn, 'ttt.mysql.database.azure.com', 'ins888@ttt', '0asd5', 'itflab', 3306);
+mysqli_real_connect($conn, 'databaseitf3.mysql.database.azure.com', 'yotsanan@databaseitf3', 'WPFlhu83', 'itfLab', 3306);
 $name=$_POST['Name'];
 $comment=$_POST['Comment'];
 $link=$_POST['Link'];
